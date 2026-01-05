@@ -1,0 +1,28 @@
+#landingpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 90vh;
+}
+
+.image img {
+  max-width: 300px;
+}
+
+.content a:link {
+  color: black;
+}
+
+.content a:visited {
+  color: black;
+}
+
+.content a:hover {
+  color: black;
+}
+
+.content a:active {
+  color: black;
+}
