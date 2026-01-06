@@ -11,6 +11,11 @@
   max-width: 300px;
 }
 
+.content a {
+  display: inline-block;
+  margin: 10px;
+}
+
 .content a:link {
   color: black;
 }

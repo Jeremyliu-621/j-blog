@@ -1,0 +1,42 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-home {
+  display: inline-block;
+  margin: 85px;
+}
+
+.art-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-image {
+  margin: 10px;
+  display: inline-block;
+}
+
+.art-images img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.art-image p {
+  margin-top: 6px; /* changes default space from image to text in css */
+  margin-bottom: 0;
+  max-width: 200px; /* matches image width so text wraps to same width */
+}
