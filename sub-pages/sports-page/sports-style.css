@@ -1,3 +1,23 @@
+h1,
+p,
+a,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+p,
+a {
+  font-size: 0.9em;
+}
+
 #sports-page {
   display: flex;
   flex-direction: column;
@@ -28,7 +48,7 @@
 
 .sports-card {
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
   width: auto;
   height: auto;
@@ -37,13 +57,9 @@
 .sports-card img {
   width: 400px;
   height: 250px;
-  object-fit: contain;
-  border-radius: 5px;
+  border-radius: 12px;
+  object-fit: cover;
   overflow: hidden;
-}
-
-#sports-page img {
-  border-radius: 5px;
 }
 
 .sports-card p {

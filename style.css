@@ -7,8 +7,29 @@
   min-height: 95vh;
 }
 
+h1,
+p,
+a,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+p,
+a {
+  font-size: 0.9em;
+}
+
 .image img {
   max-width: 400px;
+  border-radius: 20px;
 }
 
 .content a {
