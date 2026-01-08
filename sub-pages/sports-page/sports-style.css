@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.back-to-home {
+  margin: 65px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -32,8 +36,8 @@
 
 .sports-card img {
   width: 400px;
-  height: 100%;
-  object-fit: cover;
+  height: 250px;
+  object-fit: contain;
 }
 
 .sports-card p {
