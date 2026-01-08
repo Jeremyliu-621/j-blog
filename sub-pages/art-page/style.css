@@ -14,7 +14,7 @@
 
 .back-to-home {
   display: inline-block;
-  margin: 85px;
+  margin: 65px;
 }
 
 .art-images {
@@ -39,4 +39,29 @@
   margin-top: 6px; /* changes default space from image to text in css */
   margin-bottom: 0;
   max-width: 200px; /* matches image width so text wraps to same width */
+}
+
+.content a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.content a:link,
+.back-to-home a:link {
+  color: black;
+}
+
+.content a:visited,
+.back-to-home a:visited {
+  color: black;
+}
+
+.content a:hover,
+.back-to-home a:hover {
+  color: grey;
+}
+
+.content a:active,
+.back-to-home a:active {
+  color: black;
 }

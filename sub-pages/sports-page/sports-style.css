@@ -6,7 +6,7 @@
 }
 
 .back-to-home {
-  margin: 65px;
+  margin: 45px;
 }
 
 .content {
@@ -38,8 +38,39 @@
   width: 400px;
   height: 250px;
   object-fit: contain;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#sports-page img {
+  border-radius: 5px;
 }
 
 .sports-card p {
   max-width: 400px;
+}
+
+.content a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.content a:link,
+.back-to-home a:link {
+  color: black;
+}
+
+.content a:visited,
+.back-to-home a:visited {
+  color: black;
+}
+
+.content a:hover,
+.back-to-home a:hover {
+  color: grey;
+}
+
+.content a:active,
+.back-to-home a:active {
+  color: black;
 }
