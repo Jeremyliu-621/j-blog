@@ -1,0 +1,54 @@
+#school-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-home {
+  margin: 65px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  max-width: 600px;
+  text-align: center;
+}
+
+.uoft-gate img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.content a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.content a:link,
+.back-to-home a:link {
+  color: black;
+}
+
+.content a:visited,
+.back-to-home a:visited {
+  color: black;
+}
+
+.content a:hover,
+.back-to-home a:hover {
+  color: grey;
+}
+
+.content a:active,
+.back-to-home a:active {
+  color: black;
+}
