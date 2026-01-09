@@ -1,13 +1,22 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 #landingpage {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 95vh;
+  height: 93vh;
+  overflow: hidden;
 }
 
 h1,
+ul,
 p,
 a,
 h2,
@@ -23,13 +32,39 @@ h1 {
 }
 
 p,
-a {
+a,
+ul {
   font-size: 0.9em;
 }
 
 .image img {
   max-width: 400px;
   border-radius: 20px;
+}
+
+.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.updates {
+  margin: 20px;
+}
+
+.back {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 0.75em;
+}
+
+.page-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .content a {
@@ -55,8 +90,4 @@ a {
 .content a:active,
 .back a:active {
   color: black;
-}
-
-.back {
-  margin: 45px;
 }
