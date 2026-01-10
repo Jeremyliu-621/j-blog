@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 93vh;
+  height: 98vh;
   overflow: hidden;
 }
 
@@ -48,10 +48,13 @@ ul {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 40px;
 }
 
-.updates {
-  margin: 20px;
+.updates p {
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.7;
 }
 
 .back {
