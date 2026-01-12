@@ -94,3 +94,9 @@ ul {
 .back a:active {
   color: black;
 }
+
+@media (max-width: 500px) {
+  .image img {
+    max-width: 300px;
+  }
+}
