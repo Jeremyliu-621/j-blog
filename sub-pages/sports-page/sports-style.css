@@ -60,6 +60,8 @@ a {
   border-radius: 12px;
   object-fit: cover;
   overflow: hidden;
+  display: block;
+  margin: 0 auto;
 }
 
 .sports-card p {
@@ -94,8 +96,8 @@ a {
 @media (max-width: 500px) {
   .sports-card img {
     max-width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }
