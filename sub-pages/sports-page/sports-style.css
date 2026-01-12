@@ -94,5 +94,8 @@ a {
 @media (max-width: 500px) {
   .sports-card img {
     max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

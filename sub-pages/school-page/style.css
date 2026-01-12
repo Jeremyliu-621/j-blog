@@ -72,3 +72,9 @@ a {
 .back-to-home a:active {
   color: black;
 }
+
+@media (max-width: 500px) {
+  .sports-card img {
+    max-width: 300px;
+  }
+}
